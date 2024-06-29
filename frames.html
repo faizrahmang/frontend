@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>frameset attribute</title>
+    <style>
+        #h{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<!-- frameset attribute starts here -->
+
+<frameset  rows="20% , 80%">
+    <frameset >
+       <frame  name = "head"  src="heading.html"/>
+    </frameset>
+    <frameset cols="20% , 50%" name="main" >
+        <frame  name = "side" src="sides.html"/>
+        <frame   name = "main" src=""/>
+    </frameset>
+    <frame />
+
+</frameset>
+
+</html>
